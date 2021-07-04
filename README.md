@@ -4,6 +4,8 @@ Parsing and writing WireGuard configuration files (comment preserving)
 
 WireGuard config files are ini-style. Since all "Peer" sections have the same name, these files cannot be parsed and modified by most modules handling configuration files. Most existing modules are not able to preserve or even add comments when modifying a config file. "wgconfig-php" was created to work with WireGuard configuration files and to preserve comments.
 
+This work was loosely derived from https://github.com/towalink/wgconfig by Dirk Henrici.
+
 ---
 
 ## Features
