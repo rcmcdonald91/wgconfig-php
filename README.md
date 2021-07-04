@@ -22,7 +22,7 @@ WireGuard config files are ini-style. Since all "Peer" sections have the same na
 
 ### Reading and parsing an existing WireGuard configuration file
 
-Read and parse the existing WireGuard configuration file 'wg0.conf' located in '/usr/local/etc/wireguard':
+Read and parse the existing WireGuard configuration file `wg0.conf` located in `/usr/local/etc/wireguard`:
 
 ```php
 require_once('wgconfig.inc');
