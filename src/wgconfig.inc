@@ -1,6 +1,6 @@
 <?php
 /*
- * wg_wgconfig.inc
+ * wgconfig.inc
  *
  * Copyright (c) 2021 R. Christian McDonald (https://github.com/theonemcdonald)
  * Copyright (c) 2020 Dirk Henrici (https://github.com/towalink)
