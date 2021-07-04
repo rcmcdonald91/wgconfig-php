@@ -34,6 +34,17 @@ print_r($wc->get_interface());
 print_r($wc->get_peers());
 ```
 
+Set the interface DNS servers:
+```php
+$wc->set_interface_attr('DNS', '8.8.8.8');
+```
+
+Add a DNS server or two to the interface:
+```php
+$wc->add_interface_attr('DNS', '8.8.4.4');
+$wc->add_interface_attr('DNS', '1.1.1.1');
+```
+
 Add a new peer with a comment line before the peer section:
 ```php
 $wc->add_peer('801mgm2JhjTOCxfihEknzFJGYxDvi+8oVYBrWe3hOWM=', '# Newly added peer');
